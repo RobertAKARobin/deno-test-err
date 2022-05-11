@@ -1,12 +1,11 @@
 {
-  "tasks": {
-    "build": "deno bundle index.ts",
-    "test": "deno test index.test.ts"
-  },
   "compilerOptions": {
     "lib": [
       "deno.ns",
-      "dom"
+      "deno.unstable",
+      "dom",
+      "dom.asynciterable",
+      "dom.iterable"
     ]
   }
 }
